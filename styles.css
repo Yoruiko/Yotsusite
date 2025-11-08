@@ -1,0 +1,54 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    background-color: rgb(150, 236, 208);
+    margin-bottom: 20px;
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.nav li{
+    margin-right: 20px;
+}
+
+button{
+    border-radius: 50px;
+    border-width: 4px;
+    padding: 10px;
+    border-color: aquamarine;
+}
+
+.main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.welcomepara{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.welcomepara p{
+    margin-top: 20px;
+}
+.mainyotsubaimg{
+    border-radius: 50%;
+    height: 100%;
+    width: 70%;
+    object-fit: cover;
+}
